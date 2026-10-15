@@ -6,7 +6,7 @@
 // данне число : givenNumber = 12
 // сума довільних і данного чисел обсчислених за виразом : const totalSum
 
-// const a = parseInt(prompt('Enter the number for "a"', '0'))
+// export const a = parseInt(prompt('Enter the number for "a"', '0'))
 // const b = parseInt(prompt('Enter the number for "b"', '0'))
 // const givenNumber = 12
 
