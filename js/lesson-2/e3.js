@@ -4,14 +4,14 @@
 // загальна сума одиниць товару : const totalPrice
 // даний податок 5% від загальної суми : const TAX
 
-const itemPrice = Number(prompt('Enter the item price', '15'));
-const quantity = Number(prompt('Enter the item quantity', '20'));
+// const itemPrice = Number(prompt('Enter the item price', '15'));
+// const quantity = Number(prompt('Enter the item quantity', '20'));
 
-const totalPrice = itemPrice * quantity;
-const TAX = totalPrice * 0.05;
+// const totalPrice = itemPrice * quantity;
+// const TAX = totalPrice * 0.05;
 
-document.write(`
-  <p>Total price: ${totalPrice}</p>
-  <p>Tax (5%): ${TAX}</p>
-  <p>Total price including tax: ${(totalPrice - TAX)}</p>
-`);
+// document.write(`
+//   <p>Total price: ${totalPrice}</p>
+//   <p>Tax (5%): ${TAX}</p>
+//   <p>Total price including tax: ${(totalPrice - TAX)}</p>
+// `);

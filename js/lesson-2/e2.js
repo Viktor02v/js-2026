@@ -3,9 +3,9 @@
 // поточний рік : const currentYear 
 // кількість років обчислених за умовою : const age
 
-const yearOfBirdth = parseInt(prompt('Enter your year of birdth', '2004'))
-const currentYear = 2026
+// const yearOfBirdth = parseInt(prompt('Enter your year of birdth', '2004'))
+// const currentYear = 2026
 
-const age = currentYear - yearOfBirdth
+// const age = currentYear - yearOfBirdth
 
-document.write('The age is ',`${age}`)
+// document.write('The age is ',`${age}`)

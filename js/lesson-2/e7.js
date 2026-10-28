@@ -7,14 +7,14 @@
 // генерований номер місяця відповідаючий ліматам : const dayNumber
 // сума генерованих номерів місяця та дня: const sum
 
-const MOTNH_NUMBER_FROM  = 1
-const MOTNH_NUMBER_TO = 12 
-const monthNumber = Math.floor(Math.random() * (MOTNH_NUMBER_TO - MOTNH_NUMBER_FROM + 1)) + MOTNH_NUMBER_FROM
+// const MOTNH_NUMBER_FROM  = 1
+// const MOTNH_NUMBER_TO = 12 
+// const monthNumber = Math.floor(Math.random() * (MOTNH_NUMBER_TO - MOTNH_NUMBER_FROM + 1)) + MOTNH_NUMBER_FROM
 
-const DAY_NUMBER_FROM  = 0
-const DAY_NUMBER_TO = 6
-const dayNumber = Math.floor(Math.random() * (DAY_NUMBER_TO - DAY_NUMBER_FROM + 1)) + DAY_NUMBER_FROM
+// const DAY_NUMBER_FROM  = 0
+// const DAY_NUMBER_TO = 6
+// const dayNumber = Math.floor(Math.random() * (DAY_NUMBER_TO - DAY_NUMBER_FROM + 1)) + DAY_NUMBER_FROM
 
-const sum = monthNumber + dayNumber
+// const sum = monthNumber + dayNumber
 
-document.write("Sum of the random month and day numbers = ", `${sum}`)
+// document.write("Sum of the random month and day numbers = ", `${sum}`)
