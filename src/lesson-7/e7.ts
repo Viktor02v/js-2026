@@ -1,6 +1,6 @@
 // Створити функцію, яка створює таблицю з вказаною кількістю рядків і стовпців 
 // (таблиця заповнюється заданим фіксованим повідомленням).
-
+// if(confirm('Start testing ?')){
 // function getDashboard(rows:number, cols:number) {
 //   document.write(`<table>`)
 //   for (let r = 1; r <= rows; r++ ){
@@ -17,3 +17,4 @@
 // let rowsAmount = parseInt(prompt('Enter the amount of rows')!)
 
 // getDashboard(rowsAmount,colAmount)
+// }
