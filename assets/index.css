@@ -1,0 +1,9 @@
+.lesson-6-img{
+  width: 100px;
+  aspect-ratio: 1;
+  transition: scale 0.3s;
+}
+
+.lesson-6-img--hover.lesson-6-img:hover{
+  scale: 3;
+}
