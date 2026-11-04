@@ -3,10 +3,10 @@
 
 {
 if(confirm('Start testing ?')){
-  const IMG_1 = 'public/bell.png'
-  const IMG_2 = 'public/peach.png'
-  const IMG_3 = 'public/plum.png'
-  const IMG_4 = 'public/seven.png'
+  const IMG_1 = '../../public/bell.png'
+  const IMG_2 = '../../public/peach.png'
+  const IMG_3 = '../../public/plum.png'
+  const IMG_4 = '../../public/seven.png'
 
   const MIN = 1 
   const MAX = 4
@@ -35,7 +35,7 @@ if(confirm('Start testing ?')){
   const randomImg = getRandomImg(IMG_1, IMG_2, IMG_3,IMG_4)
 
   document.write(`
-    <p><img src="/${randomImg}" alt="${randomImg}"></p>
+    <p><img src="${randomImg}" alt="${randomImg}"></p>
     `)
 }
 }

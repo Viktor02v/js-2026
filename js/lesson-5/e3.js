@@ -6,10 +6,10 @@
 // Використати цикли і switch (для вибору зображення за номером).
 {
     if (confirm('Почати тестування?')) {
-        const PLUM = '/public/plum.png';
-        const PEACH = '/public/peach.png';
-        const BELL = '/public/bell.png';
-        const SEVEN = '/public/seven.png';
+        const PLUM = '../../public/plum.png';
+        const PEACH = '../../public/peach.png';
+        const BELL = '../../public/bell.png';
+        const SEVEN = '../../public/seven.png';
         const MIN = 1;
         const MAX = 4;
         const PRIZE_1 = 100;

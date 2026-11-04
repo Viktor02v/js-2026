@@ -5,7 +5,7 @@
 // (тег img повине знаходитись у середині тега a: <a> <img src=”шлях”> </a>
 {
     if (confirm('Start testing ?')) {
-        const IMG_SRC = 'public/seven.png';
+        const IMG_SRC = '../../public/seven.png';
         const SOME_LINK = 'https://google.com';
         let banner = function (imgSrc, title = 'Default', link) {
             if (!imgSrc || !link)
@@ -13,7 +13,7 @@
             return document.write(`
       <p><a href="${link}">
       <h1>${title}</h1>
-      <img src="/${imgSrc}">
+      <img src="${imgSrc}">
       </a></p>
     `);
         };

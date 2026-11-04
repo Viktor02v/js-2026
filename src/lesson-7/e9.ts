@@ -5,7 +5,7 @@
 
 {
 if(confirm('Start testing ?')){
-  const IMG_SRC = 'public/seven.png'
+  const IMG_SRC = '../../public/seven.png'
   const SOME_LINK = 'https://google.com'
 
   let banner = function(imgSrc:string, title:string='Default', link:string){
@@ -13,7 +13,7 @@ if(confirm('Start testing ?')){
     return document.write(`
       <p><a href="${link}">
       <h1>${title}</h1>
-      <img src="/${imgSrc}">
+      <img src="${imgSrc}">
       </a></p>
     `)
   }
