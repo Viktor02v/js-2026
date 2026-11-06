@@ -16,9 +16,9 @@
       for (let i = 0; i < namesNumber; i++) {
         studentNames[i] = prompt(
           `Please enter the name for the ${i + 1} student`,
-        )
+        )!.toLowerCase()
         switch (studentNames[i]) {
-          case 'Ivan':
+          case 'ivan':
             count++
             break
         }
