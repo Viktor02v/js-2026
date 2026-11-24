@@ -1,0 +1,58 @@
+"use strict";
+// Дано масив імен. Застосовуючи відповідне сортування та бінарний пошук визначити,
+// чи є у масиві ім’я довжиною 5 символів і під яким індексом.
+{
+    if (confirm('Start testing ?')) {
+        const SEARCH_EL_LENGTH = 5;
+        const namesArr = [
+            'Stepan',
+            'Igor',
+            'Tanya',
+            'Olga',
+            'Ivan',
+            'Alina',
+            'Damian',
+            'Oksana',
+        ];
+        function bubbleSort(arr) {
+            let sortedArr = [...arr];
+            let changed = true;
+            do {
+                changed = false;
+                for (let c = 0; c < sortedArr.length - 1; c++) {
+                    if (sortedArr[c]?.length > sortedArr[c + 1]?.length) {
+                        const temp = sortedArr[c + 1];
+                        sortedArr[c + 1] = sortedArr[c];
+                        sortedArr[c] = temp;
+                        changed = true;
+                    }
+                }
+            } while (changed);
+            return sortedArr;
+        }
+        let sortedArr = bubbleSort(namesArr);
+        function binarySearch(arr, searchElLength) {
+            let isExist = false;
+            let elIndex = null;
+            let start = 0;
+            let end = arr.length - 1;
+            while (start <= end) {
+                const middle = Math.floor((start + end) / 2);
+                if (arr[middle]?.length === searchElLength)
+                    return {
+                        isExist: true,
+                        elIndex: middle,
+                    };
+                else if (searchElLength > arr[middle]?.length)
+                    start = middle + 1;
+                else if (searchElLength < arr[middle]?.length)
+                    end = middle - 1;
+            }
+            return { isExist, elIndex };
+        }
+        console.log(namesArr);
+        console.log(sortedArr);
+        console.log(binarySearch(sortedArr, SEARCH_EL_LENGTH));
+    }
+}
+//# sourceMappingURL=e6.js.map
